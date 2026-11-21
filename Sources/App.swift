@@ -91,8 +91,8 @@ struct UnBinApp: App {
 
 final class Player {
     var onChange: ((Int?) -> Void)?
-    private let engine = AVAudioEngine()
-    private let node = AVAudioPlayerNode()
+    private lazy var engine = AVAudioEngine()
+    private lazy var node = AVAudioPlayerNode()
     private let queue = DispatchQueue(label: "unbin.player")
     private let format = AVAudioFormat(standardFormatWithSampleRate: 44100, channels: 2)!
     private var attached = false

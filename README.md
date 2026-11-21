@@ -8,7 +8,7 @@ A macOS GUI app that converts cue + bin CD images (a single bin or one bin per t
 It has no external dependencies and is written entirely in Swift (SwiftUI).
 The interface is in English or Japanese, following the system language.
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs/screenshot-en.png)
 
 - Data tracks → ISO (the 2048 bytes of user data are taken from each sector)
 - Audio tracks (CD-DA) → WAV (44.1 kHz, 16-bit, stereo)
